@@ -6,7 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ee5ad5-b633-4df4-add1-7ed85f5ed662" name="Default Changelist" comment="" />
+    <list default="true" id="a9ee5ad5-b633-4df4-add1-7ed85f5ed662" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScreenShot_jar/ScreenShot.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScreenShot_jar/ScreenShot.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ScreenShot/com/company/FileName$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ScreenShot/com/company/FileName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ScreenShot/com/company/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScreenShot/com/company/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ScreenShot/com/company/ScreenShot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScreenShot/com/company/ScreenShot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/FileName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ScreenShot.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,15 +30,29 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="apo &lt;fukick@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\fukic\IdeaProjects\ScreenShot\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1dLWAakEiIvy0DaBf0UEqMU89Mw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -145,12 +169,26 @@
       <workItem from="1592563021368" duration="2675000" />
       <workItem from="1592747357541" duration="8549000" />
       <workItem from="1592792395604" duration="73000" />
-      <workItem from="1592818384563" duration="8886000" />
+      <workItem from="1592818384563" duration="9325000" />
+      <workItem from="1592874161632" duration="5474000" />
     </task>
+    <task id="LOCAL-00001" summary="2020_0622クリップボード自動保存">
+      <created>1592832194469</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592832194469</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2020_0622クリップボード自動保存" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020_0622クリップボード自動保存" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2019" y="260" key="#BuildArtifactsBeforeRunChooser" timestamp="1592756797619">
@@ -174,29 +212,37 @@
       <screen x="0" y="0" width="1218" height="1024" />
     </state>
     <state x="339" y="258" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592542955556" />
+    <state x="239" y="104" key="CommitChangelistDialog2" timestamp="1592832191697">
+      <screen x="0" y="0" width="1218" height="1024" />
+    </state>
+    <state x="239" y="104" key="CommitChangelistDialog2/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592832191697" />
     <state x="389" y="266" key="FileChooserDialogImpl" timestamp="1592792438172">
       <screen x="0" y="0" width="1218" height="1024" />
     </state>
     <state x="389" y="266" key="FileChooserDialogImpl/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592792438172" />
-    <state width="1175" height="224" key="GridCell.Tab.0.bottom" timestamp="1592831282614">
+    <state x="492" y="405" width="235" height="214" key="Github.ShareDialog" timestamp="1592832273235">
       <screen x="0" y="0" width="1218" height="1024" />
     </state>
-    <state width="1175" height="224" key="GridCell.Tab.0.bottom/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592831282614" />
+    <state x="492" y="405" width="235" height="214" key="Github.ShareDialog/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592832273235" />
+    <state width="1175" height="224" key="GridCell.Tab.0.bottom" timestamp="1592889349874">
+      <screen x="0" y="0" width="1218" height="1024" />
+    </state>
+    <state width="1175" height="224" key="GridCell.Tab.0.bottom/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592889349874" />
     <state width="1877" height="229" key="GridCell.Tab.0.bottom/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" timestamp="1592756915267" />
-    <state width="1175" height="224" key="GridCell.Tab.0.center" timestamp="1592831282614">
+    <state width="1175" height="224" key="GridCell.Tab.0.center" timestamp="1592889349874">
       <screen x="0" y="0" width="1218" height="1024" />
     </state>
-    <state width="1175" height="224" key="GridCell.Tab.0.center/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592831282614" />
+    <state width="1175" height="224" key="GridCell.Tab.0.center/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592889349874" />
     <state width="1877" height="229" key="GridCell.Tab.0.center/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" timestamp="1592756915267" />
-    <state width="1175" height="224" key="GridCell.Tab.0.left" timestamp="1592831282613">
+    <state width="1175" height="224" key="GridCell.Tab.0.left" timestamp="1592889349874">
       <screen x="0" y="0" width="1218" height="1024" />
     </state>
-    <state width="1175" height="224" key="GridCell.Tab.0.left/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592831282613" />
+    <state width="1175" height="224" key="GridCell.Tab.0.left/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592889349874" />
     <state width="1877" height="229" key="GridCell.Tab.0.left/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" timestamp="1592756915267" />
-    <state width="1175" height="224" key="GridCell.Tab.0.right" timestamp="1592831282614">
+    <state width="1175" height="224" key="GridCell.Tab.0.right" timestamp="1592889349874">
       <screen x="0" y="0" width="1218" height="1024" />
     </state>
-    <state width="1175" height="224" key="GridCell.Tab.0.right/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592831282614" />
+    <state width="1175" height="224" key="GridCell.Tab.0.right/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592889349874" />
     <state width="1877" height="229" key="GridCell.Tab.0.right/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" timestamp="1592756915267" />
     <state width="1158" height="338" key="GridCell.Tab.1.bottom" timestamp="1592497792962">
       <screen x="0" y="0" width="1218" height="1024" />
