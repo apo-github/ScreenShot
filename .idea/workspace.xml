@@ -6,11 +6,28 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ee5ad5-b633-4df4-add1-7ed85f5ed662" name="Default Changelist" comment="" />
+    <list default="true" id="a9ee5ad5-b633-4df4-add1-7ed85f5ed662" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScreenShot_jar/ScreenShot.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScreenShot_jar/ScreenShot.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ScreenShot/META-INF/ScreenShot.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ScreenShot/com/company/FileName$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ScreenShot/com/company/FileName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScreenShot/com/company/FileName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ScreenShot/com/company/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScreenShot/com/company/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ScreenShot/com/company/ScreenShot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScreenShot/com/company/ScreenShot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/FileName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/FileName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ScreenShot.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,11 +46,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="アプリケーション.ScreenShot">
     <configuration default="true" type="Application" factoryName="Application">
@@ -115,18 +145,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -146,90 +164,71 @@
       <workItem from="1592747357541" duration="8549000" />
       <workItem from="1592792395604" duration="73000" />
       <workItem from="1592818384563" duration="8886000" />
+      <workItem from="1592833137052" duration="3704000" />
+      <workItem from="1592874620521" duration="6236000" />
+      <workItem from="1594041567238" duration="157000" />
+      <workItem from="1672370094239" duration="979000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2019" y="260" key="#BuildArtifactsBeforeRunChooser" timestamp="1592756797619">
-      <screen x="1280" y="-64" width="1858" height="1080" />
-    </state>
-    <state x="2019" y="260" key="#BuildArtifactsBeforeRunChooser/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" timestamp="1592756797619" />
-    <state x="1978" y="104" key="#ScreenShot.jar" timestamp="1592756808934">
-      <screen x="1280" y="-64" width="1858" height="1080" />
-    </state>
-    <state x="1978" y="104" key="#ScreenShot.jar/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" timestamp="1592756808934" />
-    <state x="414" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1592542272930">
-      <screen x="0" y="0" width="1218" height="1024" />
-    </state>
-    <state x="414" y="221" key="#com.intellij.ide.util.MemberChooser/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592542272930" />
-    <state x="1912" y="169" key="#com.intellij.ide.util.MemberChooser/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" timestamp="1592444643121" />
-    <state x="1969" y="239" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1592756154701">
-      <screen x="1280" y="-64" width="1858" height="1080" />
-    </state>
-    <state x="1969" y="239" key="#com.intellij.ide.util.TreeClassChooserDialog/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" timestamp="1592756154701" />
-    <state x="339" y="258" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1592542955556">
-      <screen x="0" y="0" width="1218" height="1024" />
-    </state>
-    <state x="339" y="258" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592542955556" />
-    <state x="389" y="266" key="FileChooserDialogImpl" timestamp="1592792438172">
-      <screen x="0" y="0" width="1218" height="1024" />
-    </state>
-    <state x="389" y="266" key="FileChooserDialogImpl/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592792438172" />
-    <state width="1175" height="224" key="GridCell.Tab.0.bottom" timestamp="1592831282614">
-      <screen x="0" y="0" width="1218" height="1024" />
-    </state>
-    <state width="1175" height="224" key="GridCell.Tab.0.bottom/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592831282614" />
-    <state width="1877" height="229" key="GridCell.Tab.0.bottom/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" timestamp="1592756915267" />
-    <state width="1175" height="224" key="GridCell.Tab.0.center" timestamp="1592831282614">
-      <screen x="0" y="0" width="1218" height="1024" />
-    </state>
-    <state width="1175" height="224" key="GridCell.Tab.0.center/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592831282614" />
-    <state width="1877" height="229" key="GridCell.Tab.0.center/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" timestamp="1592756915267" />
-    <state width="1175" height="224" key="GridCell.Tab.0.left" timestamp="1592831282613">
-      <screen x="0" y="0" width="1218" height="1024" />
-    </state>
-    <state width="1175" height="224" key="GridCell.Tab.0.left/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592831282613" />
-    <state width="1877" height="229" key="GridCell.Tab.0.left/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" timestamp="1592756915267" />
-    <state width="1175" height="224" key="GridCell.Tab.0.right" timestamp="1592831282614">
-      <screen x="0" y="0" width="1218" height="1024" />
-    </state>
-    <state width="1175" height="224" key="GridCell.Tab.0.right/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592831282614" />
-    <state width="1877" height="229" key="GridCell.Tab.0.right/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" timestamp="1592756915267" />
-    <state width="1158" height="338" key="GridCell.Tab.1.bottom" timestamp="1592497792962">
-      <screen x="0" y="0" width="1218" height="1024" />
-    </state>
-    <state width="1158" height="338" key="GridCell.Tab.1.bottom/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592497792962" />
-    <state width="1158" height="338" key="GridCell.Tab.1.center" timestamp="1592497792962">
-      <screen x="0" y="0" width="1218" height="1024" />
-    </state>
-    <state width="1158" height="338" key="GridCell.Tab.1.center/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592497792962" />
-    <state width="1158" height="338" key="GridCell.Tab.1.left" timestamp="1592497792962">
-      <screen x="0" y="0" width="1218" height="1024" />
-    </state>
-    <state width="1158" height="338" key="GridCell.Tab.1.left/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592497792962" />
-    <state width="1158" height="338" key="GridCell.Tab.1.right" timestamp="1592497792962">
-      <screen x="0" y="0" width="1218" height="1024" />
-    </state>
-    <state width="1158" height="338" key="GridCell.Tab.1.right/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592497792962" />
-    <state x="1720" y="30" key="SettingsEditor" timestamp="1592756197265">
-      <screen x="1280" y="-64" width="1858" height="1080" />
-    </state>
-    <state x="1720" y="30" key="SettingsEditor/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" timestamp="1592756197265" />
-    <state x="69" y="132" key="new project wizard" timestamp="1592792468019">
-      <screen x="0" y="0" width="1218" height="1024" />
-    </state>
-    <state x="69" y="132" key="new project wizard/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592792468019" />
-    <state x="265" y="238" key="run.anything.popup" timestamp="1592224367919">
-      <screen x="0" y="0" width="1218" height="1024" />
-    </state>
-    <state x="265" y="238" key="run.anything.popup/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592224367919" />
-    <state x="272" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1592824836505">
-      <screen x="0" y="0" width="1218" height="1024" />
-    </state>
-    <state x="272" y="225" width="672" height="678" key="search.everywhere.popup/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" timestamp="1592824836505" />
-    <state x="1695" y="173" width="1026" height="716" key="search.everywhere.popup/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" timestamp="1592756641264" />
+    <state x="2019" y="260" key="#BuildArtifactsBeforeRunChooser" />
+    <state x="2019" y="260" key="#BuildArtifactsBeforeRunChooser/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" />
+    <state x="1978" y="104" key="#ScreenShot.jar" />
+    <state x="1978" y="104" key="#ScreenShot.jar/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" />
+    <state x="414" y="221" key="#com.intellij.ide.util.MemberChooser" />
+    <state x="414" y="221" key="#com.intellij.ide.util.MemberChooser/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" />
+    <state x="1912" y="169" key="#com.intellij.ide.util.MemberChooser/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" />
+    <state x="1969" y="239" key="#com.intellij.ide.util.TreeClassChooserDialog" />
+    <state x="1969" y="239" key="#com.intellij.ide.util.TreeClassChooserDialog/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" />
+    <state x="339" y="258" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" />
+    <state x="339" y="258" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" />
+    <state x="389" y="266" key="FileChooserDialogImpl" />
+    <state x="389" y="266" key="FileChooserDialogImpl/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" />
+    <state width="1175" height="224" key="GridCell.Tab.0.bottom" />
+    <state width="1175" height="224" key="GridCell.Tab.0.bottom/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" />
+    <state width="1877" height="229" key="GridCell.Tab.0.bottom/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" />
+    <state width="1175" height="224" key="GridCell.Tab.0.center" />
+    <state width="1175" height="224" key="GridCell.Tab.0.center/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" />
+    <state width="1877" height="229" key="GridCell.Tab.0.center/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" />
+    <state width="1175" height="224" key="GridCell.Tab.0.left" />
+    <state width="1175" height="224" key="GridCell.Tab.0.left/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" />
+    <state width="1877" height="229" key="GridCell.Tab.0.left/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" />
+    <state width="1175" height="224" key="GridCell.Tab.0.right" />
+    <state width="1175" height="224" key="GridCell.Tab.0.right/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" />
+    <state width="1877" height="229" key="GridCell.Tab.0.right/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" />
+    <state width="1158" height="338" key="GridCell.Tab.1.bottom" />
+    <state width="1158" height="338" key="GridCell.Tab.1.bottom/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" />
+    <state width="1158" height="338" key="GridCell.Tab.1.center" />
+    <state width="1158" height="338" key="GridCell.Tab.1.center/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" />
+    <state width="1158" height="338" key="GridCell.Tab.1.left" />
+    <state width="1158" height="338" key="GridCell.Tab.1.left/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" />
+    <state width="1158" height="338" key="GridCell.Tab.1.right" />
+    <state width="1158" height="338" key="GridCell.Tab.1.right/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" />
+    <state x="1720" y="30" key="SettingsEditor" />
+    <state x="1720" y="30" key="SettingsEditor/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" />
+    <state x="69" y="132" key="new project wizard" />
+    <state x="69" y="132" key="new project wizard/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" />
+    <state x="265" y="238" key="run.anything.popup" />
+    <state x="265" y="238" key="run.anything.popup/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" />
+    <state x="272" y="225" width="672" height="678" key="search.everywhere.popup" />
+    <state x="272" y="225" width="672" height="678" key="search.everywhere.popup/1280.-64.1858.1080/0.0.1218.1024@0.0.1218.1024" />
+    <state x="1695" y="173" width="1026" height="716" key="search.everywhere.popup/1280.-64.1858.1080/0.0.1218.1024@1280.-64.1858.1080" />
   </component>
 </project>

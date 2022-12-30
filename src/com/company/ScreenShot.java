@@ -1,16 +1,21 @@
 package com.company;
 
 import javax.imageio.ImageIO;
+import javax.swing.*;
+import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.datatransfer.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.Scanner;
 
-public class ScreenShot extends Thread implements FlavorListener {
+public class ScreenShot extends JFrame implements FlavorListener {
     //private static Clipboard clipboard = null;//イベントを受け取るためのやつ
     static String folderPath = "";
-    FileName fileName;
+//    FileName fileName;
+    String fileText;
+    String text = "";
     public static void main(String[] args) {
 
 
@@ -34,6 +39,7 @@ public class ScreenShot extends Thread implements FlavorListener {
             }catch (InterruptedException ex){}
         }
 
+
     }
     public static void clearClip(){
 
@@ -56,25 +62,31 @@ public class ScreenShot extends Thread implements FlavorListener {
 
         if (flavor.isDataFlavorSupported(DataFlavor.imageFlavor)){
             try {
-                start();//スレッドを始める
+
                 //ファイル名の決定
-                fileName = new FileName();
-                fileName.start();
-                join();
-                if(!fileName.getText().equals("")) {
-                    //ファイルの保存
-                    BufferedImage bimg = (BufferedImage) flavor.getTransferData(DataFlavor.imageFlavor);//flavorをBufferedImageに変換
-                    ImageIO.write(bimg, "PNG", new File(folderPath + "/" + fileName.getText() + ".png"));//pngで書き出し,BufferedImageはImageIoでファイル書き出しが簡単に行える
+                while (text.equals("")) {
+                    JFileChooser fc = new JFileChooser(folderPath);
+                    int selected = fc.showSaveDialog(this);
+                    if (selected == fc.APPROVE_OPTION) {
+                        File file = fc.getSelectedFile();
+                        text = file.getName();
+                    }
                 }
+
+                //ファイルの保存
+
+                BufferedImage bimg = (BufferedImage) flavor.getTransferData(DataFlavor.imageFlavor);//flavorをBufferedImageに変換
+                ImageIO.write(bimg, "PNG", new File(folderPath + "/" + text + ".png"));//pngで書き出し,BufferedImageはImageIoでファイル書き出しが簡単に行える
+
 
             } catch (UnsupportedFlavorException ex) {
                 System.out.println("Flavorがオブジェクトをサポートしていないエラーだぞ");
             } catch (IOException ex) {
                 System.out.println("IOExceptionエラーだぞ(多分初期フォルダが指定されてないぜ)");
-            } catch (InterruptedException ex) {
-                ex.printStackTrace();
             }
+
             System.out.println("保存しました");
+            text = "";
             clearClip();
         }
     }
