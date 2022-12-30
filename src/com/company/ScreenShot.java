@@ -2,20 +2,19 @@ package com.company;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
-import javax.swing.border.LineBorder;
+import javax.swing.filechooser.FileFilter;
+import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
 import java.awt.datatransfer.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.util.Scanner;
 
 public class ScreenShot extends JFrame implements FlavorListener {
     //private static Clipboard clipboard = null;//イベントを受け取るためのやつ
     static String folderPath = "";
-//    FileName fileName;
-    String fileText;
-    String text = "";
+    String fileName = "";
+    boolean exit = true;//ChooserのDistroy()がなかったので無理やり実装
     public static void main(String[] args) {
 
 
@@ -39,7 +38,6 @@ public class ScreenShot extends JFrame implements FlavorListener {
             }catch (InterruptedException ex){}
         }
 
-
     }
     public static void clearClip(){
 
@@ -62,21 +60,34 @@ public class ScreenShot extends JFrame implements FlavorListener {
 
         if (flavor.isDataFlavorSupported(DataFlavor.imageFlavor)){
             try {
+                //ファイルの保存
+                while (fileName.equals("") && exit){
+                    JFileChooser fileChooser = new JFileChooser(folderPath);
+                    this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                    fileChooser.setDialogTitle("名前を付けて保存");
+                    String tip = "同じファイル名は上書きされます";
+                    fileChooser.setApproveButtonToolTipText(tip);
 
-                //ファイル名の決定
-                while (text.equals("")) {
-                    JFileChooser fc = new JFileChooser(folderPath);
-                    int selected = fc.showSaveDialog(this);
-                    if (selected == fc.APPROVE_OPTION) {
-                        File file = fc.getSelectedFile();
-                        text = file.getName();
+
+                    FileFilter filter = new FileNameExtensionFilter("png","png");
+                    fileChooser.addChoosableFileFilter(filter);
+                    int selected = fileChooser.showSaveDialog(this);
+                    if (selected == JFileChooser.APPROVE_OPTION){
+                        File file = fileChooser.getSelectedFile();
+                        fileName = file.getName();
+                        BufferedImage bimg = (BufferedImage) flavor.getTransferData(DataFlavor.imageFlavor);//flavorをBufferedImageに変換
+                        ImageIO.write(bimg, "PNG", new File(folderPath + "/" + fileName + ".png"));//pngで書き出し,BufferedImageはImageIoでファイル書き出しが簡単に行える
+                        System.out.println("保存しました");
+                    }
+                    if (selected == JFileChooser.CANCEL_OPTION){//バツもしくは取り消しの時
+                        System.out.println("作業が取り消されました");
+                        fileChooser.cancelSelection();
+                        exit = false;
                     }
                 }
 
-                //ファイルの保存
 
-                BufferedImage bimg = (BufferedImage) flavor.getTransferData(DataFlavor.imageFlavor);//flavorをBufferedImageに変換
-                ImageIO.write(bimg, "PNG", new File(folderPath + "/" + text + ".png"));//pngで書き出し,BufferedImageはImageIoでファイル書き出しが簡単に行える
+
 
 
             } catch (UnsupportedFlavorException ex) {
@@ -85,8 +96,8 @@ public class ScreenShot extends JFrame implements FlavorListener {
                 System.out.println("IOExceptionエラーだぞ(多分初期フォルダが指定されてないぜ)");
             }
 
-            System.out.println("保存しました");
-            text = "";
+            fileName = "";
+            exit = true;
             clearClip();
         }
     }
