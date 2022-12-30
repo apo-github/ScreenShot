@@ -6,21 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ee5ad5-b633-4df4-add1-7ed85f5ed662" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a9ee5ad5-b633-4df4-add1-7ed85f5ed662" name="Default Changelist" comment="readme追加">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ScreenShot_jar/ScreenShot.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScreenShot_jar/ScreenShot.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScreenShot/com/company/FileName$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ScreenShot/com/company/FileName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScreenShot/com/company/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScreenShot/com/company/GUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScreenShot/com/company/ScreenShot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScreenShot/com/company/ScreenShot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/FileName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ScreenShot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,6 +57,18 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="アプリケーション.ScreenShot">
     <configuration default="true" type="Application" factoryName="Application">
@@ -138,18 +149,6 @@
         <item itemvalue="アプリケーション.DisplayCapture" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
